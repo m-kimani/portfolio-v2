@@ -1,9 +1,6 @@
-import { defineConfig } from 'vite';
 
-export default defineConfig({
+export default {
   build: {
-    rollupOptions: {
-      input: 'index.html', // Make sure the path is correct
-    },
+    outDir: 'dist',
   },
-});
+};
