@@ -5,7 +5,7 @@ const MovingLinesBackground = () => {
   const numberOfLines = 30; // Adjust the number of lines for desired density
 
   return (
-    <div className="fixed inset-0 z-0 pointer-events-none">
+    <div className="hidden md:block fixed inset-0 z-0 pointer-events-none">
       <div className="relative w-full h-full">
         {[...Array(numberOfLines)].map((_, index) => (
           <React.Fragment key={index}>
