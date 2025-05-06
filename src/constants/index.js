@@ -1,4 +1,4 @@
-import { people01, people02, people03, revature, facebook, instagram, linkedin, github, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, gitio, portfoliosample, cafemngt, portfolio, skyview, notecard, expensereim,jpmc } from "../assets";
+import { people01, people02, revature, facebook, instagram, linkedin, github, send, shield, star, skyview, notecard, expensereim,jpmc } from "../assets";
 
 export const navLinks = [
   {

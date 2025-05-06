@@ -10,7 +10,6 @@ import skyview from "./skyview.png";
 import notecard from "./notecard.png";
 import expensereim from "./expensereim.png";
 import dropbox from "./dropbox.png";
-import logoezedin from "./logoezedin.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -34,11 +33,6 @@ import projects from "./projects.png";
 import team from "./team.png";
 import telegram from "./telegram.png";
 import github from "./github.png";
-import gitio from "./gitio.png";
-import portfoliosample from "./portfoliosample.png";
-import cafemngt from "./cafemngt.png";
-import portfolio from "./portfolio.png";
-import ezehero from "./ezehero.png";
 
 export {
   airbnb,
@@ -50,7 +44,6 @@ export {
   jpmc,
   coinbase,
   dropbox,
-  logoezedin,
   quotes,
   robot,
   send,
@@ -66,7 +59,6 @@ export {
   github,
   skyview,
   notecard,
-  expensereim,
   instagram,
   linkedin,
   twitter,
@@ -76,10 +68,6 @@ export {
   post,
   projects,
   team,
+  expensereim,
   telegram,
-  gitio,
-  portfoliosample,
-  cafemngt,
-  portfolio,
-  ezehero,
 };

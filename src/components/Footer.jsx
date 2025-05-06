@@ -1,5 +1,4 @@
 import styles from "../style";
-import { logoezedin } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
