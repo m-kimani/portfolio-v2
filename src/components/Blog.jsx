@@ -14,11 +14,6 @@ const Blog = () => (
         Welcome to my blog—a space dedicated to sharing my journey as a software engineer. Here, you will find a diverse range of articles that delve into the nuances of technology, creative projects, and industry best practices. Whether you`re looking for in-depth tutorials, insightful case studies, or personal reflections on the ever-evolving tech landscape, my blog aims to provide valuable content that educates, inspires, and engages.
         </p>
 
-        <Button styles={`mt-10`} />
-      </div>
-
-      <div className={layout.sectionImg}>
-        <img src={post} alt="billing" className="w-[100%] h-[100%]" />
       </div>
     </section>
 

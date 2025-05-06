@@ -27,8 +27,6 @@ const Business = () =>  (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Driven by a passion for efficiency and excellence, I approach every project with a relentless commitment to deliver exceptional results swiftly. With a keen eye for detail and a dedication to surpassing expectations, I pride myself on providing prompt and effective solutions that propel your vision to fruition.
       </p>
-
-      <Button styles={`mt-10`} />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
