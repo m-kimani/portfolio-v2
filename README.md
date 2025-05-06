@@ -1,9 +1,4 @@
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-# Ezedin - Personal Website
-=======
 # Kimani Muhmmad - Personal Website
->>>>>>> Stashed changes
 
 A personal portfolio website to showcase my works and experiences.
 
@@ -41,7 +36,7 @@ For any queries or further assistance, please contact me at [kimanimuhammad@gmai
 
 ```bash
 # Clone the repository
-git clone https://github.com/Eze-Din/ezedin.git
+git clone [https://github.com/m-kimani/portfolio-v2.git]
 
 # Navigate to the project directory
 cd 
@@ -59,4 +54,3 @@ npm start
 npm run build
 =======
 # portfolio-v2
->>>>>>> 9898a5982ad6ede0db5cd9140e2972fe12fca7bb
