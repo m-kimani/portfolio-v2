@@ -52,3 +52,14 @@ npm start
 
 # Build for production
 npm run build
+```
+
+
+
+
+## Credits
+
+This project is a fork of [ezedin](https://github.com/Eze-Din/ezedin).  
+Original author(s): [@sulibassbot](https://github.com/sulibassbot)
+
+[![Forked from sulibassbot](https://img.shields.io/badge/forked%20from-sulibassbot-blue?logo=github)](https://github.com/sulibassbot)
