@@ -1,6 +1,5 @@
 # Kimani Muhmmad - Personal Website
 
-
 A personal portfolio website to showcase my works and experiences.
 
 ## Features
@@ -37,7 +36,7 @@ For any queries or further assistance, please contact me at [kimanimuhammad@gmai
 
 ```bash
 # Clone the repository
-git clone https://github.com/Eze-Din/ezedin.git
+git clone [https://github.com/m-kimani/portfolio-v2.git]
 
 # Navigate to the project directory
 cd 
@@ -53,4 +52,3 @@ npm start
 
 # Build for production
 npm run build
-
