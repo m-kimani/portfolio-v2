@@ -1,8 +1,14 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
+import revature from "./revature.png";
 import card from "./card.png";
+import jpmc from "./jpmc.png";
+import kimani from "./kimani.png";
 import coinbase from "./coinbase.png";
+import skyview from "./skyview.png";
+import notecard from "./notecard.png";
+import expensereim from "./expensereim.png";
 import dropbox from "./dropbox.png";
 import logoezedin from "./logoezedin.svg";
 import quotes from "./quotes.svg";
@@ -38,7 +44,10 @@ export {
   airbnb,
   bill,
   binance,
+  revature,
+  kimani,
   card,
+  jpmc,
   coinbase,
   dropbox,
   logoezedin,
@@ -54,6 +63,10 @@ export {
   arrowUp,
   discount,
   facebook,
+  github,
+  skyview,
+  notecard,
+  expensereim,
   instagram,
   linkedin,
   twitter,
@@ -64,7 +77,6 @@ export {
   projects,
   team,
   telegram,
-  github,
   gitio,
   portfoliosample,
   cafemngt,

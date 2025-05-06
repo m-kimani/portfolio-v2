@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 # Ezedin - Personal Website
+=======
+# Kimani Muhmmad - Personal Website
+>>>>>>> Stashed changes
 
 A personal portfolio website to showcase my works and experiences.
 
@@ -26,7 +30,7 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 ## Contact
 
-For any queries or further assistance, please contact me at [ezedinnigussie@gmail.com](mailto:ezedinnigussie@gmail.com).
+For any queries or further assistance, please contact me at [kimanimuhammad@gmail.com](mailto:kimanimuhammad@gmail.com).
 
 ## Acknowledgments
 
@@ -40,7 +44,7 @@ For any queries or further assistance, please contact me at [ezedinnigussie@gmai
 git clone https://github.com/Eze-Din/ezedin.git
 
 # Navigate to the project directory
-cd ezedin
+cd 
 
 # Install dependencies
 npm install

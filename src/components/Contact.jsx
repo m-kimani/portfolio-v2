@@ -21,7 +21,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:ezedinnigussie@gmail.com?subject=Message from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom:%20${formData.name}%20(${formData.email})`;
+    const mailtoLink = `mailto:kimanimuhammad@gmail.com?subject=Message from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom:%20${formData.name}%20(${formData.email})`;
     window.location.href = mailtoLink;
     setShowSuccess(true);
     setTimeout(() => setShowSuccess(false), 5000); // Disappear after 3 seconds
@@ -41,15 +41,15 @@ const Contact = () => {
             <ul>
               <li className="mb-4">
                 <span className="font-semibold">Email: </span>
-                <a href="mailto:ezedinnigussie@gmail.com" className="text-blue-400">ezedinnigussie@gmail.com</a>
+                <a href="mailto:kimanimuhammad@gmail.com" className="text-blue-400">kimanimuhammad@gmail.com</a>
               </li>
               <li className="mb-4">
                 <span className="font-semibold">Phone: </span>
-                <a href="tel:+251975363208" className="text-blue-400">+251975363208</a>
+                <a href="tel:+18133614674" className="text-blue-400">(813)-361-4674</a>
               </li>
               <li>
                 <span className="font-semibold">Address: </span>
-                <p className="text-gray-400">Jemo-1, Addis Ababa, Ethiopia</p>
+                <p className="text-gray-400">Palmdale, California</p>
               </li>
             </ul>
           </div>

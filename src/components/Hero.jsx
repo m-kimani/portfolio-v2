@@ -1,5 +1,5 @@
 import styles from "../style";
-import { ezehero } from "../assets";
+import { kimani } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] py-8">
-            Your <br className="sm:block hidden" />{" "}
+            Your new<br className="sm:block hidden" />{" "}
             <span className="text-gradient">Teammate,</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
@@ -22,10 +22,10 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Virtually.
+          Kimani Muhammad.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Welcome! I`m your dedicated teammate, passionate about technology and committed to delivering exceptional results. Let`s create something amazing together, virtually.
+        Welcome! I`m a backend-focused Software Engineer with 2+ years of experience at JPMorgan Chase building scalable Java Spring microservices and AWS cloud solutions. Strong foundation in REST APIs, DevOps, and Agile development. Passionate about solving real-world problems and contributing to mission-driven teams.
         </p>
       </div>
 
@@ -33,9 +33,9 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={ezehero}
-          alt="Ezedin"
-          className="w-[100%] h-[100%] relative z-[5]"
+          src={kimani}
+          alt="kimani"
+          className="w-[50%] h-[50%] relative z-[6]"
         />
 
         {/* gradient start */}
@@ -48,6 +48,7 @@ const Hero = () => {
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
       </div>
+      
     </section>
   );
 };

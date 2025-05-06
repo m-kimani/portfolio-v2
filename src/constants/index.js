@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, gitio, portfoliosample, cafemngt, portfolio } from "../assets";
+import { people01, people02, people03, revature, facebook, instagram, linkedin, github, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, gitio, portfoliosample, cafemngt, portfolio, skyview, notecard, expensereim,jpmc } from "../assets";
 
 export const navLinks = [
   {
@@ -49,85 +49,116 @@ export const features = [
 
 export const projectss = [
   {
-    title: "Github Portfolio",
-    description: "A stunnig portfolio website built using pure javascript.",
-    image: gitio,
-    link: "https://github.com/eze-din/eze-din.github.io"
+    title: "SkyView (React + Spring Boot)",
+    description: "Built an e-commerce application with secure user auth, product viewing, cart, and checkout using Spring Boot backend and React frontend. Stored user data securely in PostgreSQL.",
+    image: skyview,
+    link: "https://github.com/Revature-Capstone-1350/e-commerce-frontend"
   },
   {
-    title: "Simple Portfolio",
-    description: "A simple single page portfolio built in HTML.",
-    image: portfoliosample,
-    link: "https://github.com/eze-din/ezedin-nigussie"
+    title: "Notecard Service API",
+    description: "Created a notecard service using Java, Spring, AWS, React, TypeScript, HTML, and CSS. Deployed the UI using React and TypeScript, and managed GitHub pull requests.",
+    image: notecard,
+    link: "https://github.com/jsparks9/notecard-api"
   },
   {
-    title: "University Cafe Management",
-    description: "A desktop application to control university students cafeteria management system, built using C# in MS Visual Studio.",
-    image: cafemngt,
-    link: "https://github.com/eze-din/su-cafe_ms"
-  },
-  {
-    title: "Stunning Portfolio",
-    description: "A modern portfolio website built in ReactJs.",
-    image: portfolio,
-    link: "https://ezedin.vercel.app"
-  },
+    title: "Expense Reimbursement System",
+    description: "Built a full-stack Java web app with a custom servlet-based API and responsive UI for submitting and managing reimbursement requests. Deployed locally via Tomcat and tested via Postman.",
+    image: expensereim,
+    link: "https://github.com/220509-web-dev/FoundationProject-Kimani"
+  }
 ];
 
 export const blog = [
   {
-    title: "Tapswap Airdrop: Tap TO Earn",
-    date: "May 26, 2024",
-    content: "Tap swap is an exciting and easy way to earn tokens by simply tapping on your screen. This guide will explain what Tapswap is, how to get started, and how you can maximize your earnings.",
-    link: "https://www.binance.com/en-NG/square/post/8485999695090"
+    title: "Compulsion Games boss: Generative AI usage 'is not mandated' at Xbox",
+    date: "May 2, 2025",
+    content: "Xbox maker Microsoft has become a vocal proponent of generative AI in recent years, but it seems the company hasn't rolled out a hard mandate across its internal studios. According to the head of Compulsion Games, the studio behind South of Midnight, its parent company has not mandated it make the most of AI tools.",
+    link: "https://www.gamedeveloper.com/production/compulsion-games-boss-says-internal-xbox-studios-aren-t-facing-generative-ai-mandate"
   },
   {
-    title: "Is AI going to upend the face of gambling?",
-    date: "May 26, 2024",
-    content: "AI has made some – to put it mildly – big changes in our world in recent years, and although nobody can say for sure what it’s going to do next or what kind of impact it’s going to have on many aspects of our lives, people are eagerly looking out for those alterations (some with slight trepidation). What does it mean for those who love the buzz and thrill of the casino world?",
-    link: "https://www.artificialintelligence-news.com/2024/05/20/is-ai-going-to-upend-the-face-of-gambling/"
+    title: "AI Is Already Writing About 30% of Code at Microsoft and Google. Here's What It Means for Software Engineers.",
+    date: "APR 30, 2025",
+    content: "Big Tech is spending tens of billions of dollars on AI infrastructure in 2025 alone, and now the CEOs of companies like Meta and Microsoft are indicating exactly how they're using the technology.",
+    link: "https://www.entrepreneur.com/business-news/ai-is-taking-over-coding-at-microsoft-google-and-meta/490896"
   },
   {
-    title: "Scarlett Johansson accuses OpenAI of creating a voice similar to hers without permission",
-    date: "May 26, 2024",
-    content: "Actress Scarlett Johansson says tech company OpenAI has created a robot voice far too close to her own without permission. Johansson says one of the voices on OpenAI's new chatbot is 'eerily similar' to her own. OpenAI's co-founder says the company has paused the use of the voice but denies copying Johansson's. NBC News' Liz Kreutz reports.",
-    link: "https://www.nbcnews.com/nightly-news/video/scarlett-johansson-accuses-openai-of-creating-a-voice-similar-to-hers-without-permission-211351621837"
+    title: "Air Force Awards Contract for Next Generation Air Dominance (NGAD) Platform, F-47",
+    date: "March 21, 2025",
+    content: "The Department of the Air Force announced today the contract award for the Engineering and Manufacturing Development (EMD) of the Next Generation Air Dominance (NGAD) Platform, marking a major milestone in the advancement of air superiority. The contract, awarded to Boeing, will lead to the development of the F-47, the world’s first sixth-generation fighter aircraft.",
+    link: "https://www.af.mil/News/Article-Display/Article/4131345/air-force-awards-contract-for-next-generation-air-dominance-ngad-platform-f-47/"
   },
   {
-    title: "Artists sign open letter warning against 'predatory' use of AI in music",
-    date: "May 26, 2024",
-    content: "Musicians vs AI. A new open letter from the Artist Rights Alliance non-profit states that when used irresponsibly, artificial intelligence 'poses enormous threats to our ability to protect our privacy, our identities, our music and our livelihoods.'.",
-    link: "https://www.euronews.com/culture/2024/04/03/artists-sign-open-letter-warning-against-predatory-use-of-ai-in-music"
-  }
+    title: "Starbucks: ordering and store locator progressive web app",
+    date: "Febuary 23, 2025",
+    content: "Using React, GraphQL, and server-side rendering for faster load times, improved SEO, more conversions for orders, and a better user experience",
+    link: "https://nearform.com/work/starbucks-progressive-web-app/"
+  },
 ];
 
 export const academicAchievements = [
   {
-    title: "Bachelor of Science in Computer Engineering",
-    institution: "Samara University",
-    date: "2018 - 2022",
-    description: "Graduated with honors, specialized in website development."
-  },
-  {
-    title: "High School Diploma",
-    institution: "Hottie High School",
-    date: "2014 - 2018",
-    description: "Graduated with a focus on science and mathematics."
+    title: "Bachelor of Science in Computer Science",
+    institution: "Southern New Hampshire University",
+    date: "2024 - 2026 (Expected Graduation)",
+    description: "Concentration in software engineering."
   }
 ];
 
 export const certificates = [
   {
-    title: "Certified Website Developer",
-    institution: "Code Academy",
-    date: "2023",
-    description: "Completed a comprehensive Website development course."
+    title: "AWS Certified Cloud Practitioner",
+    institution: "AWS",
+    date: "2024",
+    description: "Completed a the certififed cloud practitioner exam from AWS."
   },
   {
-    title: "React.js Certification",
-    institution: "Online Course",
-    date: "2024",
-    description: "Completed an advanced React.js course."
+    title: "Java Certification",
+    institution: "Sololearn",
+    date: "2022",
+    description: "Completed an advanced Java course demonstrating theoretical and practical understanding of Java."
+  },
+  {
+    title: "React + Redux",
+    institution: "Sololearn",
+    date: "2022",
+    description: "Completed an advanced Java course demonstrating theoretical and practical understanding of React + Redux."
+  },
+  {
+    title: "Responsive Web Design ",
+    institution: "Sololearn",
+    date: "2022",
+    description: "Completed approximately 300 hours of work demonstrating theoretical and practical understanding of Responsive Web Design."
+  },
+  {
+    title: "JavaScript",
+    institution: "Sololearn",
+    date: "2022",
+    description: "Completed an advanced Java course demonstrating theoretical and practical understanding of JavaScript."
+  },
+  {
+    title: "HTML",
+    institution: "Sololearn",
+    date: "2017",
+    description: "Completed an advanced Java course demonstrating theoretical and practical understanding of HTML."
+  },
+  {
+    title: "CSS",
+    institution: "Sololearn",
+    date: "2017",
+    description: "Completed an advanced Java course demonstrating theoretical and practical understanding of CSS."
+  }
+];
+
+export const experience = [
+  {
+    title: "Full Stack Software Developer",
+    institution: "J. P. Morgan Chase",
+    date: "August 2022 - May 2024",
+    description1: "Developed and maintained critical Java Spring microservices, ensuring scalability and security for high-traffic applications. My work was used as a blueprint to divide the legacy application into independent microservices in preparation for AWS migration.",
+    description2: "Led a project to implement Selenium-based automated testing on Kubernetes. I identified and automated end-to-end testing with Selenium, visualizing metrics in Grafana, achieving 99% up-time." ,
+    description3: "Implemented RESTful APIs and JWT-based authentication to manage customer accounts and transactions securely.",
+    description4: "Used Agile practices, Jira, and Git version control in a CI/CD pipeline with Jenkins.",
+    description5: "Contributed to team efforts by conducting code reviews, writing unit and integration tests, and ensuring scalable, maintainable code."
   }
 ];
 
@@ -135,27 +166,19 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Kimani was hands down one of the SMARTEST PEOPLE ON STAFF. He had everyone, managers, product managers, sr lvl execs, etc. coming to him for help. Kimani was extremely dedicated..Sometimes being on calls at 1am or later to communicate with teams in India and London. He was a quick study. There was seemingly nothing he couldn't figure out. He was the go to for solving unsolvable problems. Any firm would be LUCKY to have him. He is a walking answer.",
+    name: "Caleb Stennis",
+    title: "Ex-Int. Pro Athlete | Author of 'So You Want to Be A Pro?' | Mainframe DB2 DBA, CSM, AWS |",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "I'm happy to recommend Kimani for any role or project. He consistently demonstrates responsiveness, helpfulness, and a proactive attitude. He excels in getting tasks done efficiently and asking insightful questions, showing a dedication to continuous improvement. Kimani's professionalism and competence make him a valuable asset to any team.",
+    name: "Yasin Abdus-Sabur",
+    title: "Software Engineer",
     img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
+  }
 ];
 
 export const footerLinks = [
@@ -189,31 +212,23 @@ export const footerLinks = [
     links: [
       {
         name: "FaceBook",
-        url: "https://facebook.com/ezedinat",
-      },
-      {
-        name: "Tweeter / X",
-        url: "https://twitter.com/ezedin08",
+        url: "https://www.facebook.com/deshawn.muhammad",
       },
       {
         name: "Instagram",
-        url: "https://instagram.com/ezedin08",
-      },
-      {
-        name: "TikTok",
-        url: "https://tiktok.com/@ezedin08",
+        url: "https://www.instagram.com/_goal_digger___/profilecard/?igsh=NTc4MTIwNjQ2YQ%3D%3D",
       },
       {
         name: "GitHub",
-        url: "https://github.com/eze-din",
+        url: "https://github.com/m-kimani/",
       },
       {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/ezedin",
+        url: "https://www.linkedin.com/in/kimani-muhammad-engineer/",
       },
       {
         name: "YouTube",
-        url: "https://youtube.com/c/AlzafarTech",
+        url: "",
       },
     ],
   },
@@ -221,7 +236,7 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Telegram",
+        name: "LinkedIn",
         url: "#",
       },
       {
@@ -236,40 +251,52 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://instagram.com/ezedin08",
+    link: "https://www.instagram.com/_goal_digger___/profilecard/?igsh=NTc4MTIwNjQ2YQ%3D%3D",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://facebook.com/ezedinat",
+    link: "https://www.facebook.com/deshawn.muhammad",
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://github.com/eze-din",
+    icon: github,
+    link: "https://github.com/m-kimani/",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://linkedin.com/in/ezedin",
+    link: "https://www.linkedin.com/in/kimani-muhammad-engineer/",
   },
 ];
 
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: jpmc,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: revature,
   },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
+];
+
+export const skills = [
+  {skill: "React"},
+  {skill: "Next.js"},
+  {skill: "JavaScript"},
+  {skill: "TypeScript"},
+  {skill: "Node.js"},
+  {skill: "Git"},
+  {skill: "MongoDB"},
+  {skill: "Postgres"},
+  {skill: "Docker"},
+  {skill: "Kubernetes"},
+  {skill: "Linux"},
+  {skill: "GitHub Actions"},
+  {skill: "Prisma"},
+  {skill: "Drizzle"},
+  {skill: "MonoRepo"},
+  {skill: "WebSocket"},
+  {skill: "Your New Skill"}
 ];

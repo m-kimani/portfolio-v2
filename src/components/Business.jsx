@@ -22,7 +22,7 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Orders Embraced, <br className="sm:block hidden" /> Excellence Delivered.
+        Challenges Embraced, <br className="sm:block hidden" /> Excellence Delivered.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Driven by a passion for efficiency and excellence, I approach every project with a relentless commitment to deliver exceptional results swiftly. With a keen eye for detail and a dedication to surpassing expectations, I pride myself on providing prompt and effective solutions that propel your vision to fruition.

@@ -8,15 +8,14 @@ const Projects = () => (
       
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Explore my Creative <br className="sm:block hidden" /> Portfolio
+          Explore my Projects <br className="sm:block hidden" /> Portfolio
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Welcome to the heart of my digital universe where ideas transform into digital artistry. This Projects section showcases a curated selection of my most ambitious and successful ventures. Each project is a testament to my dedication to craftsmanship, innovative use of technology, and my relentless pursuit of perfection.
         </p>
 
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <a href="https://github.com/eze-din" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" /></a>
-        <a href="https://t.me/eze_din08" target="_blank" rel="noopener noreferrer"><img src={telegram} alt="telegram" className="w-[144.17px] h-[43.08px] object-contain cursor-pointer" /></a>
+        <a href="https://github.com/m-kimani/" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" /></a>
         </div>
       </div>
       
