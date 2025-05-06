@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ezedin - Personal Website
 
 A personal portfolio website to showcase my works and experiences.
@@ -52,3 +53,6 @@ npm start
 
 # Build for production
 npm run build
+=======
+# portfolio-v2
+>>>>>>> 9898a5982ad6ede0db5cd9140e2972fe12fca7bb
