@@ -3,6 +3,7 @@ import bill from "./bill.png";
 import binance from "./binance.png";
 import revature from "./revature.png";
 import card from "./card.png";
+import resume from "./resume.pdf";
 import jpmc from "./jpmc.png";
 import kimani from "./kimani.png";
 import coinbase from "./coinbase.png";

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex justify-center fixed top-0 left-0 z-50">
+    <nav className="w-full flex justify-center max-w-screen-lg mx-auto fixed top-0 left-0 z-50">
       <div className="w-full max-w-7xl flex py-6 justify-between items-center px-4">
         {/*<a href="#"><img src={logoezedin} alt="hoobank" className="w-[124px] h-[32px]" /></a>*/}
 

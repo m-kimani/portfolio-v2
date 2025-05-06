@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="about"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col max-w-screen-lg mx-auto ${styles.paddingY}`}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -25,7 +25,7 @@ const Hero = () => {
           Kimani Muhammad.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Welcome! I`m a backend-focused Software Engineer with 2+ years of experience at JPMorgan Chase building scalable Java Spring microservices and AWS cloud solutions. Strong foundation in REST APIs, DevOps, and Agile development. Passionate about solving real-world problems and contributing to mission-driven teams.
+        Welcome! I'm a backend-focused Software Engineer with 2+ years of experience at JPMorgan Chase building scalable Java Spring microservices and AWS cloud solutions. Strong foundation in REST APIs, DevOps, and Agile development. Passionate about solving real-world problems and contributing to mission-driven teams.
         </p>
       </div>
 

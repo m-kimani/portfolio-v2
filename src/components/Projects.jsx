@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 import { projectss } from "../constants";
 
 const Projects = () => (
-  <div>
+  <div max-w-screen-lg mx-auto>
     <section id="projects" className={layout.section}>
       
       <div className={layout.sectionInfo}>

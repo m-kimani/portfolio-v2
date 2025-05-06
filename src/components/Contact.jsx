@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className={`${styles.section} bg-dark text-white`}>
-      <div className="container mx-auto px-5">
+      <div className="container mx-auto px-5 max-w-screen-lg">
         <h2 className={`${styles.heading2} text-center mb-16`}>Contact Me</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
