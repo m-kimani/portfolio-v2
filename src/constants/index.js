@@ -2,8 +2,8 @@ import { people01, people02, revature, facebook, instagram, linkedin, github, se
 
 export const navLinks = [
   {
-    link: "/about",
-    title: "About",
+    link: "/",
+    title: "Home",
   },
   {
     link: "/projects",
@@ -202,8 +202,8 @@ export const footerLinks = [
     title: "Quick Links",
     links: [
       {
-        name: "About",
-        url: "/about",
+        name: "Home",
+        url: "/",
       },
       {
         name: "Projects",
