@@ -51,7 +51,7 @@ const Navbar = () => {
                     setToggle(false); // Close menu on selection
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <Link to={nav.link}>{nav.title}</Link>
                 </li>
               ))}
             </ul>

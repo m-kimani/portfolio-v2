@@ -2,23 +2,23 @@ import { people01, people02, revature, facebook, instagram, linkedin, github, se
 
 export const navLinks = [
   {
-    id: "about",
+    link: "/about",
     title: "About",
   },
   {
-    id: "projects",
+    link: "/projects",
     title: "Projects",
   },
   {
-    id: "blog",
+    link: "/blog",
     title: "Blog",
   },
   {
-    id: "resume",
+    link: "/resume",
     title: "Resume",
   },
   {
-    id: "contact",
+    link: "/contact",
     title: "Contact",
   },
 ];
@@ -203,23 +203,23 @@ export const footerLinks = [
     links: [
       {
         name: "About",
-        url: "#about",
+        url: "/about",
       },
       {
         name: "Projects",
-        url: "#projects",
+        url: "/projects",
       },
       {
         name: "Blog",
-        url: "#blog",
+        url: "/blog",
       },
       {
         name: "Resume",
-        url: "#resume",
+        url: "/resume",
       },
       {
         name: "Contact",
-        url: "#contact",
+        url: "/contact",
       },
     ],
   },
