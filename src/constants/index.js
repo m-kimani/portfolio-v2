@@ -68,9 +68,9 @@ export const projectss = [
   },
   {
     title: "Shopify Freelance Development (2019–2022)",
-    description: "Built custom servlet-based app for submitting/managing expense requests.",
+    description: "Enhanced UX and responsiveness for e-commerce clients by modifying Shopify themes.",
     image: shopify,
-    link: "https://github.com/220509-web-dev/FoundationProject-Kimani"
+    link: "https://shopify.com/"
   }
 ];
 
