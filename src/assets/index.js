@@ -9,6 +9,7 @@ import kimani from "./kimani.png";
 import coinbase from "./coinbase.png";
 import skyview from "./skyview.png";
 import notecard from "./notecard.png";
+import shopify from "./shopify.png";
 import expensereim from "./expensereim.png";
 import dropbox from "./dropbox.png";
 import quotes from "./quotes.svg";
@@ -69,6 +70,8 @@ export {
   post,
   projects,
   team,
+  resume,
+  shopify,
   expensereim,
   telegram,
 };

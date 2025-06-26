@@ -1,4 +1,4 @@
-import { people01, people02, revature, facebook, instagram, linkedin, github, send, shield, star, skyview, notecard, expensereim,jpmc } from "../assets";
+import { people01, people02, revature, facebook, instagram, linkedin, github, send, shield, star, skyview, notecard, shopify, expensereim,jpmc } from "../assets";
 
 export const navLinks = [
   {
@@ -49,21 +49,27 @@ export const features = [
 
 export const projectss = [
   {
-    title: "SkyView (React + Spring Boot)",
-    description: "Built an e-commerce application with secure user auth, product viewing, cart, and checkout using Spring Boot backend and React frontend. Stored user data securely in PostgreSQL.",
+    title: "SkyView – E-commerce Web App (React + Spring Boot + PostgreSQL)",
+    description: "Developed full-stack e-commerce site with secure auth, product browsing, and checkout flow.",
     image: skyview,
     link: "https://github.com/Revature-Capstone-1350/e-commerce-frontend"
   },
   {
-    title: "Notecard Service API",
-    description: "Created a notecard service using Java, Spring, AWS, React, TypeScript, HTML, and CSS. Deployed the UI using React and TypeScript, and managed GitHub pull requests.",
+    title: "Notecard Service API (Java + Spring + AWS + React + TypeScript)",
+    description: "Created a scalable note taking service using Java, Spring, AWS, React, TypeScript, HTML, and CSS. Deployed the UI using React and TypeScript, and managed GitHub pull requests.",
     image: notecard,
     link: "https://github.com/jsparks9/notecard-api"
   },
   {
-    title: "Expense Reimbursement System",
-    description: "Built a full-stack Java web app with a custom servlet-based API and responsive UI for submitting and managing reimbursement requests. Deployed locally via Tomcat and tested via Postman.",
+    title: "Expense Reimbursement System (Java + Tomcat + Postman)",
+    description: "Built custom servlet-based app for submitting/managing expense requests.",
     image: expensereim,
+    link: "https://github.com/220509-web-dev/FoundationProject-Kimani"
+  },
+  {
+    title: "Shopify Freelance Development (2019–2022)",
+    description: "Built custom servlet-based app for submitting/managing expense requests.",
+    image: shopify,
     link: "https://github.com/220509-web-dev/FoundationProject-Kimani"
   }
 ];
@@ -150,15 +156,25 @@ export const certificates = [
 ];
 
 export const experience = [
+  
+  {
+    title: "Full Stack Software Developer",
+    institution: "Revature (Contracted to J. P. Morgan Chase)",
+    date: "May 2022 - September 2023",
+    description1: "Developed backend API systems using Java Spring, crafting modularized services using an OOP design for scalable architecture. Enabled seamless expansion of new endpoints without service disruption.",
+    description2: "Designed and managed PostgreSQL and Oracle databases for high-volume applications. Optimized data retrieval with relational ID-linked tables, boosting performance and UX." ,
+    description3: "Collaborated with designers on React interfaces, adding dark mode and accessibility features that raised usability satisfaction by 25% in testing.",
+    description4: "Contributed across all phases of the SDLC using Agile. Increased sprint completion rate by 15%, accelerating delivery timelines."
+  },
   {
     title: "Full Stack Software Developer",
     institution: "J. P. Morgan Chase",
     date: "August 2022 - May 2024",
-    description1: "Developed and maintained critical Java Spring microservices, ensuring scalability and security for high-traffic applications. My work was used as a blueprint to divide the legacy application into independent microservices in preparation for AWS migration.",
-    description2: "Led a project to implement Selenium-based automated testing on Kubernetes. I identified and automated end-to-end testing with Selenium, visualizing metrics in Grafana, achieving 99% up-time." ,
-    description3: "Implemented RESTful APIs and JWT-based authentication to manage customer accounts and transactions securely.",
-    description4: "Used Agile practices, Jira, and Git version control in a CI/CD pipeline with Jenkins.",
-    description5: "Contributed to team efforts by conducting code reviews, writing unit and integration tests, and ensuring scalable, maintainable code."
+    description1: "Spearheaded microservice migration project, designing Java Spring services used as blueprints for legacy system decomposition; enabled smoother AWS cloud migration.",
+    description2: "Built automated Selenium testing suite on Kubernetes with Grafana monitoring; increased system uptime to 99%." ,
+    description3: "Developed and deployed secure REST APIs with JWT-based authentication for customer account management.",
+    description4: "Maintained CI/CD pipelines using Jenkins and Git; improved deployment reliability across teams.",
+    description5: "Conducted code reviews and testing (JUnit, Postman) to maintain high-quality, scalable codebase."
   }
 ];
 
