@@ -35,7 +35,7 @@ const Hero = () => {
         <img
           src={kimani}
           alt="kimani"
-          className="w-[50%] h-[50%] relative z-[6]"
+          className="w-[50%] h-auto relative z-[6]"
         />
 
         {/* gradient start */}
