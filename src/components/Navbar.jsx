@@ -16,13 +16,13 @@ const Navbar = () => {
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
-              key={nav.id}
+              key={nav.link}
               className={`font-poppins font-normal cursor-pointer text-[16px] ${
                 active === nav.title ? "text-white" : "text-dimWhite"
               } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <Link to={nav.link}>{nav.title}</Link>
             </li>
           ))}
         </ul>
@@ -52,7 +52,7 @@ const Navbar = () => {
                     setToggle(false); // Close menu on selection
                   }}
                 >
-                  <Link to={nav.link}>{nav.title}</Link>
+                  <Link to={nav.link}  target="_blank" rel="noopener noreferrer">{nav.title}</Link>
                 </li>
               ))}
             </ul>
