@@ -298,21 +298,24 @@ export const clients = [
 ];
 
 export const skills = [
+  {skill: "Java"},
   {skill: "React"},
-  {skill: "Next.js"},
+  {skill: "AWS"},
   {skill: "JavaScript"},
   {skill: "TypeScript"},
-  {skill: "Node.js"},
+  {skill: "Python"},
+  {skill: "Spring Boot"},
+  {skill: "Selenium"},
   {skill: "Git"},
-  {skill: "MongoDB"},
+  {skill: "SQL"},
   {skill: "Postgres"},
   {skill: "Docker"},
   {skill: "Kubernetes"},
   {skill: "Linux"},
-  {skill: "GitHub Actions"},
-  {skill: "Prisma"},
-  {skill: "Drizzle"},
-  {skill: "MonoRepo"},
-  {skill: "WebSocket"},
-  {skill: "Your New Skill"}
+  {skill: "Postman"},
+  {skill: "Grafana"},
+  {skill: "Splunk"},
+  {skill: "JUnit"},
+  {skill: "Agile"},
+  {skill: "Scrum"}
 ];
